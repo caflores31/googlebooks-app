@@ -1,4 +1,4 @@
-// import the gql tagged template function
+// import the gql //
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`
@@ -51,5 +51,5 @@ type Auth {
 
 
 
-// export the typeDefs
+// export typedefs //
 module.exports = typeDefs;

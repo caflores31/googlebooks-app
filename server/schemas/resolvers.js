@@ -7,7 +7,7 @@ const resolvers = {
 
     Query: {
 
-        //get a user by username
+        // by username // 
         me: async (parent, args, context) => {
 
             if(context.user) {
