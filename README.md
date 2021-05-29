@@ -138,7 +138,7 @@ You are required to submit BOTH of the following for review:
 
 * Github --> https://github.com/caflores31/googlebooks-app
 
-* Heroku App --> 
+* Heroku App --> https://secure-savannah-71487.herokuapp.com/
 
 - - -
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
