@@ -12,6 +12,15 @@ I WANT to search for new books to read
 SO THAT I can keep a list of books to purchase
 ```
 
+## Technical Requirements 
+
+```Javascript
+React.js
+JSX
+Express/Node.js
+```MongoDB/Mongoose
+
+
 ## Getting Started
 
 In order for this application to use a GraphQL API, you’ll need to refactor the API to use GraphQL on the back end and add some functionality to the front end. The following sections contain details about the files you’ll need to modify on the back end and the front end.
