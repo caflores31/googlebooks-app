@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import { useMutation } from '@apollo/react-hooks';
 import { Form, Button, Alert } from 'react-bootstrap';
 
-// import { createUser } from '../utils/API';
+// import { createUser } from '../API'; //
 import Auth from '../utils/auth';
 import { ADD_USER } from '../utils/mutations';
 
 const SignupForm = () => {
-  // set initial form state
+  // set initial form state //
   const [userFormData, setUserFormData] = useState({ username: '', email: '', password: '' });
-  // set state for form validation
+  // set  for form validation //
   const [validated] = useState(false);
-  // set state for alert
+  // set state for alert //
   const [showAlert, setShowAlert] = useState(false);
 
   const[addUser] = useMutation(ADD_USER);
@@ -24,7 +24,7 @@ const SignupForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-        // use try/catch instead of promises to handle errors
+
       try {
         // execute addUser mutation and pass in variable data from form
         const { data } = await addUser({
